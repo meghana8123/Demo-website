@@ -1,0 +1,59 @@
+.carousel {
+    position: relative;
+    display: none !important;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: none !important;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../../assets/images/banner1.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p.py-5.text-center {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 500;
+    height: 200px;
+    position: relative;
+    // top: 20px;
+}
+
+.row.product-main {
+    margin: 40px;
+}
+
+.col-4.product-list {
+    padding: 0 20px;
+}
+
+.row.inner {
+    border: 1px solid #40a738;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 3px 0px 12px 4px #c7bebede;
+    background: #fff;
+}
+
+p.item-name {
+    font-size: 20px;
+    color: #1c3986;
+    font-weight: 600;
+}

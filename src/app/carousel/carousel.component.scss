@@ -1,0 +1,90 @@
+.picsum-img-wrapper img{
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.card svg.material-icons path {
+    fill: #888;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 65px;
+  }
+
+  .card {
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    height: 45px;
+    width: 300px;
+    margin: 0 50px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    box-shadow: -3px 1px 4px #1c3986;
+  }
+
+  .card-container .card:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .card.card-small {
+    height: 16px;
+    width: 168px;
+  }
+
+  .card-container .card:not(.highlight-card) {
+    cursor: pointer;
+  }
+
+  .card-container .card:not(.highlight-card):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  }
+
+  .card-container .card:not(.highlight-card):hover .material-icons path {
+    fill: rgb(105, 103, 103);
+  }
+
+  .card.highlight-card {
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    border: none;
+    width: auto;
+    min-width: 30%;
+    position: relative;
+  }
+
+  .card.card.highlight-card span {
+    margin-left: 60px;
+  }
+
+  .owl-carousel .owl-item{
+      padding: 20px !important;
+  }
+
+  .owl-carousel .owl-stage {
+    position: relative;
+    touch-action: manipulation;
+    margin: 0 -15px !important;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .carousel-caption{
+        bottom:-25px !important;
+    }
+
+    .card{
+        margin: 30px 0px !important; 
+    }
+  }
